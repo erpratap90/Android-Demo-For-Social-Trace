@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "F:/MeeBlue/Android/CheckBlue/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\MeeBlue\\Android\\CheckBlue\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+	],
+	"libraries" : 
+	{
+		"hello-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "hello",
+			"buildCommand" : "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\MeeBlue\\Android\\CheckBlue\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target hello",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dhello_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/MeeBlue/Android/CheckBlue/app/src/main/jni/hello.c",
+					"workingDirectory" : "F:/MeeBlue/Android/CheckBlue/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "F:/MeeBlue/Android/CheckBlue/app/build/intermediates/cmake/debug/obj/arm64-v8a/libhello.so",
+			"toolchain" : "45444497"
+		}
+	},
+	"toolchains" : 
+	{
+		"45444497" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

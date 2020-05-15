@@ -1,0 +1,3 @@
+# ninja log v5
+0	553	0	CMakeFiles/hello.dir/src/main/jni/hello.c.o	501121b1a4718d4d
+553	881	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libhello.so	4aad3fad5948d99d

@@ -1,0 +1,115 @@
+apply plugin: 'com.android.application'
+apply plugin: 'img-optimizer'
+
+if (isNeedPackage.toBoolean()) {
+    apply plugin: 'com.didiglobal.booster'
+}
+
+android {
+    compileSdkVersion build_versions.target_sdk
+    buildToolsVersion build_versions.build_tools
+
+    defaultConfig {
+        applicationId "com.meeblue.checkblue"
+        minSdkVersion 18
+        targetSdkVersion build_versions.target_sdk
+        versionCode 6
+        versionName "1.1.2"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [ moduleName : project.getName() ]
+            }
+        }
+
+        externalNativeBuild{
+            cmake{
+                cppFlags ""
+                abiFilters "arm64-v8a","armeabi-v7a","x86","x86_64"
+            }
+        }
+    }
+
+    signingConfigs {
+
+        release {
+            storeFile file("./debug.jks")
+            storePassword "123456"
+            keyAlias "key0"
+            keyPassword "123456"
+        }
+
+        debug {
+            storeFile file("./debug.jks")
+            storePassword "123456"
+            keyAlias "key0"
+            keyPassword "123456"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (isNeedPackage.toBoolean()) {
+                signingConfig signingConfigs.release
+            } else {
+                signingConfig signingConfigs.release
+            }
+        }
+
+        debug {
+            debuggable true
+            minifyEnabled false
+
+            signingConfig signingConfigs.release
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation deps.junit
+    androidTestImplementation deps.runner
+    androidTestImplementation deps.espresso.core
+
+
+    implementation deps.androidx.multidex
+
+
+    implementation 'com.github.xuexiangjys.SmartRefreshLayout:refresh-header:1.1.5'
+    implementation 'com.github.xuexiangjys.SmartRefreshLayout:refresh-layout:1.1.5'
+
+    //WebView
+    implementation 'com.github.xuexiangjys.AgentWeb:agentweb-core:1.0.0'
+    implementation 'com.github.xuexiangjys.AgentWeb:agentweb-download:1.0.0'
+
+    //AutoSize
+    implementation 'me.jessyan:autosize:1.1.2'
+
+    //nordic ble
+    implementation 'no.nordicsemi.android:ble:2.1.1'
+    implementation 'no.nordicsemi.android:log:2.2.0'
+    implementation 'no.nordicsemi.android.support.v18:scanner:1.4.3'
+
+    implementation 'no.nordicsemi.android:dfu:1.10.0'
+    implementation 'no.nordicsemi.android:ble-common:2.2.0-alpha06'
+    implementation 'no.nordicsemi.android:ble:2.1.1'
+}
+
+apply from: 'x-library.gradle'
+
+

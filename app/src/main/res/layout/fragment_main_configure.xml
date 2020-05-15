@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2020 meeblue
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:orientation="vertical"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <com.xuexiang.xui.widget.tabbar.TabControlView
+                android:id="@+id/configure_type"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tcv_selectedColor="@color/adarkblue"
+                app:tcv_unselectedTextColor="@color/white"
+                app:tcv_equalWidth="true"
+                app:tcv_defaultSelection="0"/>
+
+            <!-- ibeacon -->
+            <LinearLayout
+                android:id="@+id/ibeacon_configure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="iBeacon Parameters："
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="UUID："
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                        android:id="@+id/mini_uuid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="6 bytes hex value"
+                        android:textSize="15sp"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="12"
+                        app:met_minCharacters="12" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="Major："
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                        android:id="@+id/major"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:hint="0-65535"
+                        android:textSize="15sp"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="5" />
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="Minor："
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                        android:id="@+id/minor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="0-65535"
+                        android:textSize="15sp"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="5" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="Measured Power Value："
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                        android:id="@+id/measured_power"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="130-255"
+                        android:textSize="15sp"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="3" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/eddystone_uid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="Namespace ID："
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                        android:id="@+id/namespace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Eddystone Namespace ID"
+                        android:textSize="15sp"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="12"
+                        app:met_minCharacters="12" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="instance："
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                        android:id="@+id/instance"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:hint="0-65535"
+                        android:textSize="15sp"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="5" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="Measured Power Value："
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                        android:id="@+id/eddystone_power"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="-50"
+                        android:textSize="15sp"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="3" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/eddystone_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="URI："
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                        android:id="@id/eddystone_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="https:www.meeblue.com/"
+                        android:textSize="15sp"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="12"
+                        app:met_minCharacters="12" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="Measured Power Value："
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                        android:id="@+id/eddystone_url_power"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="-50"
+                        android:textSize="15sp"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="3" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/custom_configure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="Flag："
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.tabbar.TabControlView
+                        android:id="@+id/configure_flag"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:tcv_selectedColor="@color/adarkblue"
+                        app:tcv_unselectedTextColor="@color/white"
+                        app:tcv_equalWidth="true"
+                        app:tcv_defaultSelection="0"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="Start 14 bytes："
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                        android:id="@+id/custom_first"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Begin of 14 bytes"
+                        android:textSize="15sp"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="12"
+                        app:met_minCharacters="12" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextStyle.Content"
+                        android:text="End 14 bytes：  "
+                        android:textSize="15sp" />
+
+                    <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                        android:id="@+id/custom_end"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="End of 14 bytes"
+                        android:textSize="15sp"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="3" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</LinearLayout>

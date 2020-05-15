@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab43218f-3949-4374-be4f-a477628c3494" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CUY0220113006360" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/global/GlobalFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="186" column="26" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
+              <folding>
+                <element signature="e#5866#5867#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/core/BaseFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="735" column="9" selection-start-line="735" selection-start-column="9" selection-end-line="735" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#18729#18730#0" expanded="true" />
+                <element signature="e#18773#18774#0" expanded="true" />
+                <element signature="e#19003#19004#0" expanded="true" />
+                <element signature="e#19034#19035#0" expanded="true" />
+                <element signature="e#19076#19077#0" expanded="true" />
+                <element signature="e#19106#19107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/list/SimpleRecyclerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/global_basic_list_item.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Advertise_Data_t.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#2524#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/utils/BLELocalInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Beacon_All_Data_t.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/ALERT_State_Data_t.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="83" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Record_Configure_Data_t.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Reading_Sensor_State_t.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>share_file</find>
+      <find>UnsignedInt32ToBytes</find>
+      <find>getUnsignedInt32</find>
+      <find>Latest Record Time</find>
+      <find>m_History</find>
+      <find>writeTHBytesToFile</find>
+      <find>&quot;\t&quot;</find>
+      <find>Save_New_Data</find>
+      <find>init_handles</find>
+      <find>messagehandler</find>
+      <find>set_fragment_is_aviliable</find>
+      <find>AppPageConfig</find>
+      <find>xuexiang</find>
+      <find>isNeedPackage</find>
+      <find>meeblue.com</find>
+      <find>xuexiangjys.club</find>
+      <find>url_project_github</find>
+      <find>menu_news</find>
+      <find>set_rssi_limit</find>
+      <find>totalMilliSeconds</find>
+      <find>InitServices</find>
+      <find>UpdateItemByIotSnsorFilter</find>
+      <find>SimpleListAdapter</find>
+      <find>BaseContainerFragment</find>
+      <find>onde</find>
+      <find>Story_History</find>
+      <find>startScan</find>
+      <find>ble_filters</find>
+      <find>onRequestPermissionsResult</find>
+      <find>ActivityCompat.requestPermissions</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>)))</replace>
+      <replace>(ser.equals(UUID.fromString(&quot;0000</replace>
+      <replace>MEEBLUE_Defines.</replace>
+      <replace>)</replace>
+      <replace>-0000-1000-8000-00805f9b34fb&quot;)))</replace>
+      <replace>false</replace>
+      <replace>Integer.parseInt</replace>
+      <replace>temptemp</replace>
+      <replace>showErrorDialog(</replace>
+      <replace>);</replace>
+      <replace>unacceptable</replace>
+      <replace>m_Pro_Values.add(</replace>
+      <replace>&quot;);</replace>
+      <replace>) != 0) {</replace>
+      <replace>if ((</replace>
+      <replace>&quot;</replace>
+      <replace>()</replace>
+      <replace>meeblue</replace>
+      <replace>CSVUtil.csv_segmentation_symbol</replace>
+    </replaceStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="F:\MeeBlue\Android\Android Demo For Social Trace\app\debug.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/iot/IotMultSetFragment.java" />
+        <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/utils/MMKVUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/core/BaseContainerFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/core/BaseSimpleListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/utils/sdkinit/UMengInit.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/core/webview/AgentWebFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/utils/sdkinit/XBasicLibInit.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/MyApp.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/meeblue/checkblue/BuildConfig.java" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/activity/LocalBroadcastManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/core/webview/WebViewInterceptDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_navigation_bottom.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_global_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/eddystone/eddystonevalidator/UidValidator.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/eddystone/eddystonevalidator/UrlValidator.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/list/SimpleListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/manager/BLEMainManager.java" />
+        <option value="$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/ble/struct/ALERT_State_Data_t.java" />
+        <option value="$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/ble/struct/Sensor_Configure_Data_t.java" />
+        <option value="$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/ble/struct/Record_Configure_Data_t.java" />
+        <option value="$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/ble/struct/Beacon_All_Data_t.java" />
+        <option value="$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/ble/profile/MEEBLUE_Defines.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/global/AdvConfigureFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Record_Configure_Data_t.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/profile/MEEBLUE_Defines.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Sensor_data_t.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/utils/CSVUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/global/HistorySyncFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Beacon_All_Data_t.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/more/SettingsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/utils/SettingSPUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/utils/BLEUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/global/GlobalFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/ALERT_State_Data_t.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/manager/BLEMainService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/global/MultSetFragment.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/core/BaseFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Advertise_Data_t.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/global_basic_list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/list/SimpleRecyclerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/utils/BLELocalInfo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="TemplateAppProject-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="H:\MeeBlue\Android\TemplateAppProject-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="TemplateAppProject-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="H:\MeeBlue\Android\TemplateAppProject-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TemplateAppProject-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="H:\MeeBlue\Android\TemplateAppProject-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TemplateAppProject-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="H:\MeeBlue\Android\TemplateAppProject-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="androidTest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TemplateAppProject-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="H:\MeeBlue\Android\TemplateAppProject-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TemplateAppProject-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="H:\MeeBlue\Android\TemplateAppProject-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TemplateAppProject-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="H:\MeeBlue\Android\TemplateAppProject-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TemplateAppProject-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="H:\MeeBlue\Android\TemplateAppProject-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="gradle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Android Demo For Social Trace" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Android Demo For Social Trace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Android Demo For Social Trace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Android Demo For Social Trace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Android Demo For Social Trace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Android Demo For Social Trace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Android Demo For Social Trace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Android Demo For Social Trace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Android Demo For Social Trace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Android Demo For Social Trace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Android Demo For Social Trace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExportApk.ApkPath" value="F:\MeeBlue\Android\CheckBlue\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/news" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CheckBlue Android Demo" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Default Config" />
+    <option name="BUILD_VARIANTS_TAB" value="Build Types" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="debug" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.meeblue.checkblue.utils" />
+      <recent name="com.meeblue.checkblue.ble.struct" />
+      <recent name="com.meeblue.checkblue.fragment.utils" />
+      <recent name="com.meeblue.checkblue.fragment.list" />
+      <recent name="com.meeblue.checkblue.ble.temp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.meeblue.checkblue.ble.struct" />
+      <recent name="com.meeblue.checkblue.fragment.iot" />
+      <recent name="com.meeblue.checkblue.fragment.global" />
+      <recent name="com.meeblue.checkblue.ble.profile" />
+      <recent name="com.meeblue.checkblue.activity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MeeBlue\Android\CheckBlue\app\src\main\res\xml" />
+      <recent name="F:\MeeBlue\Android\CheckBlue\app\src\main\res\layout" />
+      <recent name="F:\MeeBlue\Android\CheckBlue\app\src\main\res\drawable-hdpi" />
+      <recent name="F:\MeeBlue\Android\CheckBlue\app\src\main\java\com\meeblue\checkblue\ble" />
+      <recent name="F:\MeeBlue\Android\CheckBlue\app\src\main\java\com\meeblue\checkblue\eddystone\eddystonevalidator" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab43218f-3949-4374-be4f-a477628c3494" name="Default Changelist" comment="" />
+      <created>1581732454566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581732454566</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18453333" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Build Variants" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5024" side_tool="true" weight="0.36403033" />
+      <window_info anchor="bottom" id="Build" order="4" sideWeight="0.4976" visible="true" weight="0.30552545" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49813333" weight="0.312026" />
+      <window_info anchor="bottom" id="Logcat" order="6" sideWeight="0.49813333" weight="0.36403033" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" sideWeight="0.49921754" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32719395" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Hierarchy" order="5" weight="0.32942098" />
+      <window_info anchor="right" id="Preview" order="6" weight="0.312" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/manager/BLEMainService.java</url>
+          <line>199</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/global_details_list_item.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/simple_list_item.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/list/SimpleListAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/core/BaseContainerFragment.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/eddystone/eddystonevalidator/UidValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/eddystone/eddystonevalidator/UrlValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/core/BaseSimpleListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/manager/BLEMainManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/eddystone/eddystonevalidator/UrlValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/eddystone/eddystonevalidator/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/fragment/utils/BLEUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="347" column="24" selection-start-line="347" selection-start-column="24" selection-end-line="347" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/ble/struct/ALERT_State_Data_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/ble/struct/Reading_Sensor_State_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/ble/struct/Sensor_data_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/ble/struct/Record_Configure_Data_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/ble/struct/Beacon_All_Data_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CheckBlue Android Demo/app/src/main/java/com/meeblue/checkblue/ble/profile/MEEBLUE_Defines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="93" column="61" selection-start-line="93" selection-start-column="61" selection-end-line="93" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/x-library.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/global/AdvConfigureFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_item_view.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/profile/MEEBLUE_Defines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/global/BeaconStateFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Sensor_data_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/global/CustomBeaconConfigureFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="83" column="65" selection-start-line="83" selection-start-column="65" selection-end-line="83" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/utils/CSVUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="222" column="52" selection-start-line="222" selection-start-column="52" selection-end-line="222" selection-end-column="52" />
+          <folding>
+            <element signature="e#6074#6089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/global/HistorySyncFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="113" column="60" selection-start-line="113" selection-start-column="60" selection-end-line="113" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2708#2723#0" expanded="true" />
+            <element signature="e#2791#2806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/profile/BleProfileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/utils/SettingSPUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding>
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1991#1992#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/more/SettingsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android.support.v18/scanner/1.4.3/5ce627058bc9a174fdbef6d7fe3473b42ad9011b/scanner-1.4.3-sources.jar!/no/nordicsemi/android/support/v18/scanner/ScanFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/ParcelUuid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/utils/BLEUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="338" column="25" selection-start-line="338" selection-start-column="25" selection-end-line="338" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/manager/BLEMainService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="241" column="146" selection-start-line="241" selection-start-column="146" selection-end-line="241" selection-end-column="146" />
+          <folding>
+            <element signature="e#10435#10622#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/global/MultSetFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="679" column="19" selection-start-line="679" selection-start-column="19" selection-end-line="679" selection-end-column="19" />
+          <folding>
+            <element signature="e#8657#8658#0" expanded="true" />
+            <element signature="e#8681#8682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/core/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="735" column="9" selection-start-line="735" selection-start-column="9" selection-end-line="735" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#18729#18730#0" expanded="true" />
+            <element signature="e#18773#18774#0" expanded="true" />
+            <element signature="e#19003#19004#0" expanded="true" />
+            <element signature="e#19034#19035#0" expanded="true" />
+            <element signature="e#19076#19077#0" expanded="true" />
+            <element signature="e#19106#19107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Record_Configure_Data_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Beacon_All_Data_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Reading_Sensor_State_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/ALERT_State_Data_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="83" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/ble/struct/Advertise_Data_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#2524#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/global_basic_list_item.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/global/GlobalFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="186" column="26" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
+          <folding>
+            <element signature="e#5866#5867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/list/SimpleRecyclerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meeblue/checkblue/fragment/utils/BLELocalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "F:\\MeeBlue\\Android\\CheckBlue\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "hello-Release-armeabi-v7a": {
+      "artifactName": "hello",
+      "buildCommand": "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cmake\\release\\armeabi-v7a --target hello",
+      "abi": "armeabi-v7a",
+      "output": "F:\\MeeBlue\\Android\\CheckBlue\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libhello.so"
+    }
+  }
+}

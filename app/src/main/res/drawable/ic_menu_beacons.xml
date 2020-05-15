@@ -1,0 +1,31 @@
+<!--
+  ~ Copyright (C) 2020 meeblue
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<vector android:autoMirrored="true" android:height="24dp"
+    android:viewportHeight="384" android:viewportWidth="384"
+    android:width="24dp" xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:pathData="M351.88,178.55c-6.16,-74.07 -65.23,-139.68 -146.43,-146.43L205.45,0h-26.9L178.55,32.12C99,38.74 38.33,103.92 32.12,178.55L0,178.55v26.9L32.12,205.45c5.94,71.43 63,139.49 146.43,146.43L178.55,384h26.9L205.45,351.88c70.62,-5.88 139.46,-62.6 146.43,-146.43L384,205.45v-26.9ZM377.94,199.4h-31.7C341,279 281.23,340.7 199.4,346.05v31.89L184.6,377.94L184.6,346.05C104,340.78 43,280.1 37.76,199.4L6.06,199.4L6.06,184.6L38,184.6C43.22,103.94 104.42,43 184.6,37.76L184.6,6.05h14.8L199.4,37.76C279.49,43 341,104.43 346.24,184.6h31.7ZM321.25,184.6c-5.08,-62.15 -50,-116 -121.85,-121.85v44.62L184.6,107.37L184.6,62.75C124.38,66.13 67.18,113.92 62.75,184.6h44.62v14.8L63,199.4c4.34,53.14 41.16,115.28 121.58,121.85L184.58,276.63h14.8v44.62c66.65,-5.44 116.29,-53.79 121.85,-121.85L276.63,199.4L276.63,184.6ZM314.63,205.45A122.69,122.69 0,0 1,205.45 314.63L205.45,270.57h-26.9v44.06A122.69,122.69 0,0 1,69.37 205.45h44.06v-26.9L69.37,178.55A122.69,122.69 0,0 1,178.55 69.37v44.06h26.9L205.45,69.37A122.69,122.69 0,0 1,314.63 178.55L270.57,178.55v26.9Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:endX="303.43" android:endY="76.71"
+                android:startX="80.71" android:startY="307.34" android:type="linear">
+                <item android:color="#FF63247F" android:offset="0.4"/>
+                <item android:color="#FFB01775" android:offset="0.75"/>
+                <item android:color="#FFE30F6F" android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

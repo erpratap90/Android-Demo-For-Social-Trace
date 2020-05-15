@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "F:\\MeeBlue\\Android\\CheckBlue",
+      "sdkFolder": "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "F:\\MeeBlue\\Android\\CheckBlue\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "F:\\MeeBlue\\Android\\CheckBlue\\app",
+      "makeFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "F:\\MeeBlue\\Android\\CheckBlue\\.cxx",
+      "cxxFolder": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\ndk-bundle",
+      "ndkVersion": "21.0.6113669",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "soFolder": "F:\\MeeBlue\\Android\\CheckBlue\\app\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "F:\\MeeBlue\\Android\\CheckBlue\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 18,
+  "cxxBuildFolder": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cmake\\debug\\x86",
+  "jsonFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cxx\\debug\\x86",
+  "objFolder": "F:\\MeeBlue\\Android\\CheckBlue\\app\\build\\intermediates\\cmake\\debug\\obj\\x86",
+  "buildCommandFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cmake\\debug\\x86\\build_command.txt",
+  "buildOutputFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cmake\\debug\\x86\\build_output.txt",
+  "modelOutputFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cmake\\debug\\x86\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cxx\\debug\\x86\\CMakeLists.txt",
+    "toolchainWrapperFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cxx\\debug\\x86\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cxx\\debug\\x86\\build_generation_state.json",
+    "cacheKeyFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cxx\\debug\\x86\\compiler_cache_key.json",
+    "compilerCacheUseFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cxx\\debug\\x86\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cxx\\debug\\x86\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cxx\\debug\\x86\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cmake\\debug\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "F:\\MeeBlue\\Android\\CheckBlue\\app\\.cxx\\cmake\\debug\\x86\\compile_commands.json"
+}

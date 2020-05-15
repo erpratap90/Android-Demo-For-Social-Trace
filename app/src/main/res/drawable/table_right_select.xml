@@ -1,0 +1,27 @@
+<!--
+  ~ Copyright (C) 2020 meeblue
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<vector android:autoMirrored="true" android:height="31.271677dp"
+    android:viewportHeight="10.82" android:viewportWidth="13.84"
+    android:width="40dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#fff"
+        android:pathData="M1.2863,4.9507l5.8743,4.3674l-0.5966,0.8025l-5.8743,-4.3674z"
+        android:strokeColor="#299ee3" android:strokeWidth="1"/>
+    <path android:fillColor="#fff"
+        android:pathData="M13.137,1.2984l-6.5631,8.8276l-0.8025,-0.5966l6.5631,-8.8276z"
+        android:strokeColor="#299ee3" android:strokeWidth="1"/>
+</vector>
