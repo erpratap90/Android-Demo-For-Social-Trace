@@ -12,3 +12,6 @@ It is a bluetooth beacon, able to scan and locate other Meeblue devices. It will
 
 # learn more from our bolg
 https://www.meeblue.com/blogs/Product_Social_Alert
+
+# Demo Video
+https://youtu.be/NEyavet3_Hg
