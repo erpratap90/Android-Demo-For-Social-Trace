@@ -282,26 +282,43 @@ public class BLEUtils {
         return value & 0xFF;
     }
 
-    public static int getUnsignedInt8(byte[] bytes, boolean litterfirst) {
+    public static int getUnsignedInt8(byte[] bytes, boolean big_endian) {
         return unsignedByteToInt(bytes[0]);
     }
 
-    public static int getUnsignedInt16(byte[] bytes, boolean litterfirst) {
-        if (litterfirst)
+    public static int getUnsignedInt16(byte[] bytes, boolean big_endian) {
+        if (big_endian)
         {
             return unsignedByteToInt(bytes[1]) + (unsignedByteToInt(bytes[0]) << 8);
         }
         return unsignedByteToInt(bytes[0]) + (unsignedByteToInt(bytes[1]) << 8);
     }
 
-    public static long getUnsignedInt32(byte[] bytes, boolean litterfirst) {
-        if (litterfirst)
-        {
-            return (unsignedByteToInt(bytes[0]) << 24) + (unsignedByteToInt(bytes[1]) << 16) + (unsignedByteToInt(bytes[2]) << 8) +  unsignedByteToInt(bytes[3]);
-        }
-        return (unsignedByteToInt(bytes[3]) << 24) + (unsignedByteToInt(bytes[2]) << 16) + (unsignedByteToInt(bytes[1]) << 8) +  unsignedByteToInt(bytes[0]);
-    }
+    public static long getUnsignedInt32(byte[] bytes, boolean big_endian) {
 
+        if (bytes == null)
+        {
+            throw new IllegalArgumentException("byte array is null!");
+        }
+        if (bytes.length > 8)
+        {
+            throw new IllegalArgumentException("byte array size > 8 !");
+        }
+        long r = 0;
+        if (big_endian)
+            for (int i = 0; i < bytes.length; i++)
+            {
+                r <<= 8;
+                r |= (bytes[i] & 0x00000000000000ff);
+            }
+        else
+            for (int i = bytes.length - 1; i >= 0; i--)
+            {
+                r <<= 8;
+                r |= (bytes[i] & 0x00000000000000ff);
+            }
+        return r;
+    }
 
     public static long GetLongData(byte[] time, byte[] data) {
         ByteBuffer temp =ByteBuffer.allocate(time.length+data.length);
@@ -317,8 +334,8 @@ public class BLEUtils {
     }
 
 
-    public static byte[] UnsignedIntToBytes(long value, boolean litterfirst, int length) {
-        if (litterfirst)
+    public static byte[] UnsignedIntToBytes(long value, boolean big_endian, int length) {
+        if (big_endian)
         {
             byte[] temp = new byte[length];
             for(int i = 0;i < length;i++){
@@ -343,12 +360,12 @@ public class BLEUtils {
         return temp;
     }
 
-    public static byte[] UnsignedInt16ToBytes(int value, boolean litterfirst) {
-        return UnsignedIntToBytes(value, litterfirst, 2);
+    public static byte[] UnsignedInt16ToBytes(int value, boolean big_endian) {
+        return UnsignedIntToBytes(value, big_endian, 2);
     }
 
-    public static byte[] UnsignedInt32ToBytes( long value, boolean litterfirst) {
-        return UnsignedIntToBytes(value, litterfirst, 4);
+    public static byte[] UnsignedInt32ToBytes( long value, boolean big_endian) {
+        return UnsignedIntToBytes(value, big_endian, 4);
     }
 
 
