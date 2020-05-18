@@ -10,7 +10,7 @@ Each device will make LED and sound alert independently when they are closed to 
 # About the Product
 It is a bluetooth beacon, able to scan and locate other Meeblue devices. It will light up and make a sound alarm when detecting another beacon in the range of 2 meters. It can store 34,304 records data of other Meeblue alert beacon that it scanned in the range of 2 meters. With this function, it can cover about 60 days' data if they closed 500 person per day. The record information contains the time stamp and device ID.
 
-# learn more from our bolg
+# learn more from our blog
 https://www.meeblue.com/blogs/Product_Social_Alert
 
 # Demo Video
