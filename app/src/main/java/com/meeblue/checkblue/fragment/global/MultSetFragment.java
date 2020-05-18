@@ -541,12 +541,6 @@ public class MultSetFragment extends BaseFragment {
                         });
                     }
                     break;
-                    case 1://Battery Voltage
-                        break;
-                    case 2://Device Temperture Data
-                        break;
-                    case 3://Device Humidity Data
-                        break;
                     default:
                         break;
                 }
@@ -565,7 +559,7 @@ public class MultSetFragment extends BaseFragment {
                             public void onStringReceived(String input, boolean state) {
                                 super.onStringReceived(input, state);
                                 long InputData = 0;
-                                long temp = 1294967295;
+                                long temp = 0xFFFFFFFF;
                                 if (state) InputData = Long.parseLong(input);
                                 if (state && InputData >= 1 && InputData <= temp) {
                                     MyApp.Main_Service.getBeacon_All_Data().Beacon_State.m_device_id = InputData;
@@ -652,12 +646,12 @@ public class MultSetFragment extends BaseFragment {
 
                     case 5://Trigger Mode Adv Time
                     {
-
+                        openNewPage(AlarmStateFragment.class);
                     }
                     break;
                     case 6:
                     {
-                        ;
+                        openNewPage(WhiteListFragment.class);
                     }
                     break;
                     default:

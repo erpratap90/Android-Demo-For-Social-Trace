@@ -434,6 +434,6 @@ public class BLEUtils {
     }
 
     public static void DEBUG_PRINTF(String Message) {
-        Log.d("Alvin", "Alvin:"+Message);
+        //Log.d("Alvin", "Alvin:"+Message);
     }
 }

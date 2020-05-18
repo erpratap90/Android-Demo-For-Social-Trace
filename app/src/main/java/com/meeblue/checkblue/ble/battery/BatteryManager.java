@@ -76,8 +76,10 @@ public abstract class BatteryManager<T extends BatteryManagerCallbacks> extends 
     public void readCharacteristic(UUID ServiceUUID, UUID CharacteristicUUID, BLEMainDataCallback callback) {
         BluetoothGattCharacteristic Characteristic = getCharacteristicByUUID(ServiceUUID, CharacteristicUUID);
 
-        if (Characteristic == null || (Characteristic.getProperties() & BluetoothGattCharacteristic.PROPERTY_READ) == 0)
+        if (Characteristic == null || (Characteristic.getProperties() & BluetoothGattCharacteristic.PROPERTY_READ) == 0) {
             callback.onOptionState(basic_gatt.getDevice(), null, false);
+            return;
+        }
         if (isConnected()) {
             readCharacteristic(Characteristic)
                     .with(callback)
@@ -95,8 +97,10 @@ public abstract class BatteryManager<T extends BatteryManagerCallbacks> extends 
 
     public void writeCharacteristic(UUID ServiceUUID, UUID CharacteristicUUID, Data data, BLEMainDataCallback callback) {
         BluetoothGattCharacteristic Characteristic = getCharacteristicByUUID(ServiceUUID, CharacteristicUUID);
-        if (Characteristic == null || (Characteristic.getProperties() & (BluetoothGattCharacteristic.PROPERTY_WRITE | BluetoothGattCharacteristic.PROPERTY_WRITE_NO_RESPONSE)) == 0)
+        if (Characteristic == null || (Characteristic.getProperties() & (BluetoothGattCharacteristic.PROPERTY_WRITE | BluetoothGattCharacteristic.PROPERTY_WRITE_NO_RESPONSE)) == 0) {
             callback.onOptionState(basic_gatt.getDevice(), null, false);
+            return;
+        }
         if (isConnected()) {
             writeCharacteristic(Characteristic, data)
                     .with(callback)
@@ -113,8 +117,10 @@ public abstract class BatteryManager<T extends BatteryManagerCallbacks> extends 
 
     public void enableCharacteristicNotifications(UUID ServiceUUID, UUID CharacteristicUUID, BLEMainDataCallback callback) {
         BluetoothGattCharacteristic Characteristic = getCharacteristicByUUID(ServiceUUID, CharacteristicUUID);
-        if (Characteristic == null || (Characteristic.getProperties() & BluetoothGattCharacteristic.PROPERTY_NOTIFY) == 0)
+        if (Characteristic == null || (Characteristic.getProperties() & BluetoothGattCharacteristic.PROPERTY_NOTIFY) == 0) {
             callback.onNotificatioinState(basic_gatt.getDevice(), false);
+            return;
+        }
         if (isConnected()) {
             // If the Battery Level characteristic is null, the request will be ignored
             setNotificationCallback(Characteristic)
@@ -144,7 +150,10 @@ public abstract class BatteryManager<T extends BatteryManagerCallbacks> extends 
     public void disableCharacteristicNotifications(UUID ServiceUUID, UUID CharacteristicUUID, BLEMainDataCallback callback) {
         BluetoothGattCharacteristic Characteristic = getCharacteristicByUUID(ServiceUUID, CharacteristicUUID);
         if (Characteristic == null || (Characteristic.getProperties() & BluetoothGattCharacteristic.PROPERTY_NOTIFY) == 0)
+        {
             callback.onNotificatioinState(basic_gatt.getDevice(), false);
+            return;
+        }
         if (isConnected()) {
             disableNotifications(Characteristic)
                     .done(new SuccessCallback() {

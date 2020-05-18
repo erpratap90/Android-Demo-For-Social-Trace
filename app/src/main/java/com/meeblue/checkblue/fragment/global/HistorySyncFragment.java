@@ -125,7 +125,7 @@ public class HistorySyncFragment extends BaseFragment {
             showErrorDialog("Failed to export");
         }
 
-        BLEUtils.DEBUG_PRINTF("Here1");
+        BLEUtils.DEBUG_PRINTF("go to here");
     }
 
     public void ReadConfigureData()

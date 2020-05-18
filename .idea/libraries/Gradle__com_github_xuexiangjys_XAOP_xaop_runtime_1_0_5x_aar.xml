@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.xuexiangjys.XAOP:xaop-runtime:1.0.5x@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/676a5ffb4b7505e2bc16697b84369b78/xaop-runtime-1.0.5x/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/676a5ffb4b7505e2bc16697b84369b78/xaop-runtime-1.0.5x/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/622e3d2ca8d840bc638c038c6530debb/xaop-runtime-1.0.5x/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/622e3d2ca8d840bc638c038c6530debb/xaop-runtime-1.0.5x/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.xuexiangjys.XAOP/xaop-runtime/1.0.5x/49ea13a3ad38ab18a0e291e42c250eb5878910/xaop-runtime-1.0.5x-javadoc.jar!/" />

@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: no.nordicsemi.android:ble-common:2.2.0-alpha06@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50ed910ab708ccb874eae6c0d4c6caa7/ble-common-2.2.0-alpha06/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1937745beedd0e70394e6cd3ce9c92ad/ble-common-2.2.0-alpha06/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50ed910ab708ccb874eae6c0d4c6caa7/ble-common-2.2.0-alpha06/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50ed910ab708ccb874eae6c0d4c6caa7/ble-common-2.2.0-alpha06/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1937745beedd0e70394e6cd3ce9c92ad/ble-common-2.2.0-alpha06/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1937745beedd0e70394e6cd3ce9c92ad/ble-common-2.2.0-alpha06/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android/ble-common/2.2.0-alpha06/ee57efc7b7ca947cd212650f1d962cff22dde774/ble-common-2.2.0-alpha06-javadoc.jar!/" />

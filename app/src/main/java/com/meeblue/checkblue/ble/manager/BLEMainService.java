@@ -234,19 +234,31 @@ public class BLEMainService extends BleProfileService implements BLEMainManagerC
                                                         }
 
 
-                                                        //Sync Time
-                                                        getBeacon_All_Data().Beacon_State.m_current_time_stamp = System.currentTimeMillis() / 1000;
-
-                                                        writeCharacteristic(MEEBLUE_Defines.MEEBLUE_MAIN_SERVICE, MEEBLUE_Defines.MEEBLUE_MAIN_BEACON_STATE, new Data(getBeacon_All_Data().Beacon_State.getCombination()), new BLEMainDataCallback() {
+                                                        readCharacteristic(MEEBLUE_Defines.MEEBLUE_CLOSE_SERVICE, MEEBLUE_Defines.MEEBLUE_CLOSE_WHITE_LIST, new BLEMainDataCallback() {
                                                             @Override
                                                             public void onOptionState(@NonNull BluetoothDevice device, Data data, boolean state) {
                                                                 super.onOptionState(device, data, state);
-                                                                read_call_back.onReadAllFinished(get_ble_gatt().getDevice());
-                                                            }
+                                                                if (readState) readState = state;
+                                                                read_call_back.onDataReadProcess(get_ble_gatt().getDevice(), 99);
+                                                                if (state) {
+                                                                    getBeacon_All_Data().on_read_white_list(data.getValue());
+                                                                }
 
-                                                            @Override
-                                                            public void onDataSent(@NonNull BluetoothDevice device, @NonNull Data data) {
-                                                                super.onDataSent(device, data);
+                                                                //Sync Time
+                                                                getBeacon_All_Data().Beacon_State.m_current_time_stamp = System.currentTimeMillis() / 1000;
+
+                                                                writeCharacteristic(MEEBLUE_Defines.MEEBLUE_MAIN_SERVICE, MEEBLUE_Defines.MEEBLUE_MAIN_BEACON_STATE, new Data(getBeacon_All_Data().Beacon_State.getCombination()), new BLEMainDataCallback() {
+                                                                    @Override
+                                                                    public void onOptionState(@NonNull BluetoothDevice device, Data data, boolean state) {
+                                                                        super.onOptionState(device, data, state);
+                                                                        read_call_back.onReadAllFinished(get_ble_gatt().getDevice());
+                                                                    }
+
+                                                                    @Override
+                                                                    public void onDataSent(@NonNull BluetoothDevice device, @NonNull Data data) {
+                                                                        super.onDataSent(device, data);
+                                                                    }
+                                                                });
                                                             }
                                                         });
                                                     }

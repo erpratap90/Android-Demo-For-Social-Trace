@@ -34,6 +34,46 @@ public class Beacon_All_Data_t extends Object {
     public byte[] Systemp_ID = new byte[6];
     public byte[] Firmware_ID = new byte[20];
 
+    public byte[] get_all_white_list()
+    {
+        byte[] temp = new byte[WIHITE_LIST_TOTAL_LENGTH];
+        for (int i = 0; i < WIHITE_LIST_COUNT; i++)
+        {
+            System.arraycopy(BLEUtils.UnsignedInt32ToBytes(m_white_list[i], false), 0, temp, i*4, 4);
+        }
+        return temp;
+    }
+
+    public void clear_all_white_list()
+    {
+        for (int i = 0; i < WIHITE_LIST_COUNT; i++)
+        {
+            m_white_list[i] = 0;
+        }
+    }
+
+    public void on_read_white_list(byte[] value)
+    {
+        for (int i = 0; i < WIHITE_LIST_COUNT; i++)
+        {
+            m_white_list[i] = BLEUtils.getUnsignedInt32(BLEUtils.subBytes(value, i*4, 4), false);
+        }
+    }
+
+    public boolean add_new_id_to_white_list(long ID)
+    {
+        for (int i = 0; i < WIHITE_LIST_COUNT; i++)
+        {
+            if (m_white_list[i] == 0)
+            {
+                m_white_list[i] = ID;
+                return true;
+            }
+        }
+        return false;
+    }
+
+
     public int get_white_list_count()
     {
         int i = 0;
