@@ -147,7 +147,7 @@ public class WhiteListFragment extends BaseFragment {
 
         if (right) {
             itemWithDetailBelow.setAccessoryType(XUICommonListItemView.ACCESSORY_TYPE_CUSTOM);
-            FrameLayout view = (FrameLayout) LayoutInflater.from(getActivity()).inflate(R.layout.right_select_view, null);
+            FrameLayout view = (FrameLayout) LayoutInflater.from(getActivity()).inflate(R.layout.acc_right_view, null);
             itemWithDetailBelow.addAccessoryCustomView(view);
         } else {
             itemWithDetailBelow.setAccessoryType(XUICommonListItemView.ACCESSORY_TYPE_NONE);
@@ -171,7 +171,7 @@ public class WhiteListFragment extends BaseFragment {
     }
 
     private void initGroupListView() {
-        int size = DensityUtils.dp2px(getContext(), 20);
+        mGroupListView.removeAllViews();
 
         if (!OnlyLoad_Once) {
             for (int section = 0; section < numberOfSectionsInTableView(); section++) {
@@ -193,7 +193,7 @@ public class WhiteListFragment extends BaseFragment {
                 }
             }
         }
-        OnlyLoad_Once = true;
+        OnlyLoad_Once = false;
     }
 
     @Override
