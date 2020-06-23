@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.xuexiangjys:XHttp2:1.0.3@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fd5f87c15262487b3f942207120e18a/jetified-XHttp2-1.0.3/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19f11572065fad76b74e7b0c9d471f4e/jetified-XHttp2-1.0.3/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fd5f87c15262487b3f942207120e18a/jetified-XHttp2-1.0.3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fd5f87c15262487b3f942207120e18a/jetified-XHttp2-1.0.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19f11572065fad76b74e7b0c9d471f4e/jetified-XHttp2-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19f11572065fad76b74e7b0c9d471f4e/jetified-XHttp2-1.0.3/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.xuexiangjys/XHttp2/1.0.3/c32c3c454654ac24dcb918459bca11383ccf1cca/XHttp2-1.0.3-javadoc.jar!/" />

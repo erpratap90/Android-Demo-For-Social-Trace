@@ -494,7 +494,7 @@ public class HistorySyncFragment extends BaseFragment {
         switch (indexPath.section) {
             case 0:
                 switch (indexPath.row) {
-                    case 5://clear all data
+                    case 4://clear all data
                         showSureLoader("Do you really sure to clear all flash data?");
                         break;
                 }
